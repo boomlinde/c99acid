@@ -1,0 +1,2 @@
+#!/bin/bash
+exec ffplay -ac 2 -f f32le -ar 48k  -
