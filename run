@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -O3 -Wall -lm acid.c && ./a.out |./play-stdin
+gcc -O3 -Wall acid.c -lm && ./a.out |./play-stdin
