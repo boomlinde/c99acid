@@ -1,0 +1,2 @@
+#!/bin/bash
+exec ffmpeg -ac 2 -f f32le -ar 48k -i pipe: out.mp4
